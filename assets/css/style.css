@@ -39,7 +39,12 @@ body {
   border-radius: 5px;
 }
 #header {
-  margin: 50px 50px;
+  margin: 30% 50px 0 50px;
+}
+@media (min-width: 992px) {
+  #header {
+    margin: 50px 50px;
+  }
 }
 .header-title {
   font-size: 32px;
