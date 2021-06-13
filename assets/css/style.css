@@ -68,6 +68,7 @@ body {
 }
 .download-resume {
   color: #000;
+  font-size: 12px;
   background: lightgrey;
   padding: 5px 20px;
   border-radius: 5px;
