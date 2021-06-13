@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "RobotoMono";
+  src: url("../fonts/RobotoMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "RobotoMono";
+  color: #444;
+  height: 100vh;
+  overflow: hidden;
+}
+.site-nav {
+  margin-top: 10px;
+}
+.site-nav .nav {
+  display: flex;
+  justify-content: center;
+}
+.nav-item {
+  margin: 0 10px;
+}
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.nav-link:hover {
+  color: #000;
+  background: lightgrey;
+  border-radius: 5px;
+}
+.nav-link:focus {
+  color: #000;
+  background: lightgrey;
+  border-radius: 5px;
+}
+#header {
+  margin: 50px 50px;
+}
+.header-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  line-height: 35px;
+}
+@media (min-width: 992px) {
+  .header-title {
+    margin-top: 135px;
+  }
+}
+.header-sub-title {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.header-resume {
+  margin-top: 20px;
+}
+.download-resume {
+  color: #000;
+  background: lightgrey;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.download-resume:hover {
+  color: #000;
+  background: #b6b6b6;
+  transition: 0.3s;
+}
+.hero {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.hero img {
+  width: 350px;
+}
+@media (min-width: 320px) {
+  .hero img {
+    margin-top: 50px;
+    width: 280px;
+  }
+}
+@media (min-width: 768px) {
+  .hero img {
+    margin-top: 50px;
+    width: 300px;
+  }
+}
+#content {
+  margin: 50px 50px;
+}
+@media (min-width: 320px) {
+  #content {
+    margin: 50px 15px;
+  }
+}
+.content-title {
+  font-weight: 700;
+}
+.list-group {
+  margin-top: 20px;
+}
+.list-group-item {
+  background: transparent;
+  height: 75px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+.list-group-item h5 {
+  font-size: 12px;
+}
+.list-group-item small {
+  font-size: 10px;
+}
+.list-group-item:hover {
+  background: lightgrey;
+  cursor: pointer;
+}
+.content-body p {
+  margin-top: 20px;
+}
+.list-link {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.list-link-item {
+  text-decoration: none;
+  list-style: none;
+  background: transparent;
+  padding: 5px 20px;
+  transition: 0.3s;
+}
+.list-link-item:hover {
+  background: lightgrey;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.xhry-link {
+  color: #000;
+  text-decoration: none;
+}
+.xhry-link:hover {
+  color: #000;
+  cursor: pointer;
+}
