@@ -110,7 +110,7 @@ body {
 }
 .list-group-item {
   background: transparent;
-  height: 75px;
+  height: 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
   border-radius: 3px;
   margin: 5px 0;
