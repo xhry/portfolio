@@ -110,10 +110,10 @@ body {
 }
 .list-group-item {
   background: transparent;
-  height: 100px;
+  height: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
   border-radius: 3px;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 .list-group-item h5 {
   font-size: 12px;
